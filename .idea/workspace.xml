@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25c4f3bb-88b4-4971-a754-749772164909" name="Default Changelist" comment="" />
+    <list default="true" id="25c4f3bb-88b4-4971-a754-749772164909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kursin Linki" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +19,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SrS2KxVnn9LCZvJNGefqrYEiax" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-and-post-testing" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for blog_test.BlogTest">
+  <component name="RunManager" selected="Python tests.Unittests for post_test.PostTest.test_create_post">
     <configuration name="blog.test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,20 +75,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for blog_test.BlogTest.test_create_posts_in_blog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="blog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;blog_test.BlogTest.test_create_posts_in_blog&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for post_test.PostTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,35 +89,48 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for post_test.PostTest.test_create_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;*_test.py&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_target" value="&quot;post_test.PostTest.test_create_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in blog_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration/blog_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.blog.test" />
       <item itemvalue="Python tests.Unittests for post_test.PostTest" />
-      <item itemvalue="Python tests.Unittests in tests" />
       <item itemvalue="Python tests.Unittests for blog_test.BlogTest" />
-      <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_posts_in_blog" />
+      <item itemvalue="Python tests.Unittests in blog_test.py" />
+      <item itemvalue="Python tests.Unittests for post_test.PostTest.test_create_post" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for post_test.PostTest.test_create_post" />
+        <item itemvalue="Python.blog.test" />
+        <item itemvalue="Python tests.Unittests in blog_test.py" />
         <item itemvalue="Python tests.Unittests for blog_test.BlogTest" />
         <item itemvalue="Python tests.Unittests for post_test.PostTest" />
-        <item itemvalue="Python.blog.test" />
-        <item itemvalue="Python tests.Unittests for blog_test.BlogTest.test_create_posts_in_blog" />
-        <item itemvalue="Python tests.Unittests in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +146,18 @@
       <updated>1572320012724</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
